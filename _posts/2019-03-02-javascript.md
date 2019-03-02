@@ -16,7 +16,7 @@ keywords: "자바스크립트"
 [[^6]] 전역 변수<br/>
 <br/>
 <br/>
-
+--- Footnote:
 [^1]: 1: 함수
 자바스크립트의 함수는 어휘적 유효범위를 가진 일급 객체다. (**first-class object**)
 [**일급 객체**](https://jeong-pro.tistory.com/24)
