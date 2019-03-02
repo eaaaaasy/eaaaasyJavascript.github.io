@@ -14,11 +14,13 @@ keywords: "자바스크립트"
 6. 전역 변수
 </pre>
 ---
-1. 함수 (어휘적 유효범위를 가진 일급 객체 first class object)<br/>
-변수에 대입되거나 인수로 넘길 수도 있고, 반환값으로 사용할 수 있다. > 제약이 없다. > 일급 객체다 > 그럼 2급은?<br/>
-(https://jeong-pro.tistory.com/24)<br/>
-함수를 값으로 다룰 수 있다. (함수 스스로 객체취급) 함수 자체를 다른 함수의 파라미터로 사용할 수 있다.<br/>
+**1. 함수 (어휘적 유효범위를 가진 일급 객체 first class object)**<br/>
+파라미터, 리턴값으로 사용할 수 있다. > 제약이 없다. > 일급 객체다 > 그럼 2급은?<br/>
 ```javascript
+/*
+https://jeong-pro.tistory.com/24
+함수를 값으로 다룰 수 있다. (함수 스스로 객체취급) 함수 자체를 다른 함수의 파라미터로 사용할 수 있다.
+*/
 function add_maker(a){
   return function(b){
     return a+b;
